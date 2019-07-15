@@ -1,0 +1,65 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="UTF-8"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\Tarih_Date\Currency"><Select dest="@CurrencyCode" from="@CurrencyCode"/><Select dest="@Unit" from="\Unit"/><Select dest="@Isim" from="\Isim"/><Select dest="@ForexBuying" from="\ForexBuying"/><Select dest="@ForexSelling" from="\ForexSelling"/><Select dest="@BanknoteBuying" from="\BanknoteBuying"/><Select dest="@BanknoteSelling" from="\BanknoteSelling"/></SelectEach></Transform><XmlSchema RootName="Tarih_Date"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Tarih_Date" type="Tarih_DateType"/>
+  <xs:complexType name="Tarih_DateType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Currency" type="CurrencyType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+    <xs:attribute name="Tarih" type="xs:string"/>
+    <xs:attribute name="Date" type="xs:string"/>
+    <xs:attribute name="Bulten_No" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Currency" type="CurrencyType"/>
+  <xs:complexType name="CurrencyType">
+    <sequence xmlns="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="Unit" type="UnitType"/>
+      <xs:element name="Isim" type="IsimType"/>
+      <xs:element name="CurrencyName" type="CurrencyNameType"/>
+      <xs:element name="ForexBuying" type="ForexBuyingType"/>
+      <xs:element name="ForexSelling" type="ForexSellingType"/>
+      <xs:element name="BanknoteBuying" type="BanknoteBuyingType"/>
+      <xs:element name="BanknoteSelling" type="BanknoteSellingType"/>
+      <xs:element name="CrossRateUSD" type="CrossRateUSDType"/>
+      <xs:element name="CrossRateOther" type="CrossRateOtherType"/>
+    </sequence>
+    <xs:attribute name="CrossOrder" type="xs:string"/>
+    <xs:attribute name="Kod" type="xs:string"/>
+    <xs:attribute name="CurrencyCode" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Unit" type="UnitType"/>
+  <xs:simpleType name="UnitType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Isim" type="IsimType"/>
+  <xs:simpleType name="IsimType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CurrencyName" type="CurrencyNameType"/>
+  <xs:simpleType name="CurrencyNameType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ForexBuying" type="ForexBuyingType"/>
+  <xs:simpleType name="ForexBuyingType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ForexSelling" type="ForexSellingType"/>
+  <xs:simpleType name="ForexSellingType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="BanknoteBuying" type="BanknoteBuyingType"/>
+  <xs:simpleType name="BanknoteBuyingType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="BanknoteSelling" type="BanknoteSellingType"/>
+  <xs:simpleType name="BanknoteSellingType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CrossRateUSD" type="CrossRateUSDType"/>
+  <xs:simpleType name="CrossRateUSDType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CrossRateOther" type="CrossRateOtherType"/>
+  <xs:simpleType name="CrossRateOtherType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="CurrencyCode" fieldtype="string" WIDTH="3"/><FIELD attrname="Unit" fieldtype="string" WIDTH="3"/><FIELD attrname="Isim" fieldtype="string" WIDTH="50"/><FIELD attrname="ForexBuying" fieldtype="string" WIDTH="7"/><FIELD attrname="ForexSelling" fieldtype="string" WIDTH="7"/><FIELD attrname="BanknoteBuying" fieldtype="string" WIDTH="7"/><FIELD attrname="BanknoteSelling" fieldtype="string" WIDTH="7"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="CurrencyCode" fieldtype="string" WIDTH="3"/><FIELD attrname="Unit" fieldtype="string" WIDTH="3"/><FIELD attrname="Isim" fieldtype="string" WIDTH="50"/><FIELD attrname="ForexBuying" fieldtype="string" WIDTH="7"/><FIELD attrname="ForexSelling" fieldtype="string" WIDTH="7"/><FIELD attrname="BanknoteBuying" fieldtype="string" WIDTH="7"/><FIELD attrname="BanknoteSelling" fieldtype="string" WIDTH="7"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

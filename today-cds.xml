@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DATAPACKET Version="2.0">
+	<METADATA>
+		<FIELDS>
+			<FIELD attrname="CrossOrder" fieldtype="string" WIDTH="2"/>
+			<FIELD attrname="Kod" fieldtype="string" WIDTH="3"/>
+			<FIELD attrname="CurrencyCode" fieldtype="string" WIDTH="3"/>
+			<FIELD attrname="Unit" fieldtype="string" WIDTH="3"/>
+			<FIELD attrname="Isim" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="CurrencyName" fieldtype="string" WIDTH="50"/>
+			<FIELD attrname="ForexBuying" fieldtype="string" WIDTH="7"/>
+			<FIELD attrname="ForexSelling" fieldtype="string" WIDTH="7"/>
+			<FIELD attrname="BanknoteBuying" fieldtype="string" WIDTH="7"/>
+			<FIELD attrname="BanknoteSelling" fieldtype="string" WIDTH="7"/>
+			<FIELD attrname="CrossRateUSD" fieldtype="string" WIDTH="32"/>
+			<FIELD attrname="CrossRateOther" fieldtype="string" WIDTH="32"/>
+		</FIELDS>
+		<PARAMS/>
+	</METADATA>
+	<ROWDATA>
+		<ROW CrossOrder="0" Kod="USD" CurrencyCode="USD" Unit="1" Isim="ABD DOLARI" CurrencyName="US DOLLAR" ForexBuying="2.9552" ForexSelling="2.9605" BanknoteBuying="2.9531" BanknoteSelling="2.9649" CrossRateUSD="" CrossRateOther=""/>
+		<ROW CrossOrder="1" Kod="AUD" CurrencyCode="AUD" Unit="1" Isim="AVUSTRALYA DOLARI" CurrencyName="AUSTRALIAN DOLLAR" ForexBuying="2.2444" ForexSelling="2.2590" BanknoteBuying="2.2341" BanknoteSelling="2.2726" CrossRateUSD="1.3136" CrossRateOther=""/>
+		<ROW CrossOrder="2" Kod="DKK" CurrencyCode="DKK" Unit="1" Isim="DANİMARKA KRONU" CurrencyName="DANISH KRONE" ForexBuying="0.44672" ForexSelling="0.44892" BanknoteBuying="0.44641" BanknoteSelling="0.44995" CrossRateUSD="6.6049" CrossRateOther=""/>
+		<ROW CrossOrder="9" Kod="EUR" CurrencyCode="EUR" Unit="1" Isim="EURO" CurrencyName="EURO" ForexBuying="3.3300" ForexSelling="3.3360" BanknoteBuying="3.3277" BanknoteSelling="3.3410" CrossRateUSD="" CrossRateOther="1.1268"/>
+		<ROW CrossOrder="10" Kod="GBP" CurrencyCode="GBP" Unit="1" Isim="İNGİLİZ STERLİNİ" CurrencyName="POUND STERLING" ForexBuying="3.9259" ForexSelling="3.9463" BanknoteBuying="3.9231" BanknoteSelling="3.9523" CrossRateUSD="" CrossRateOther="1.3307"/>
+		<ROW CrossOrder="3" Kod="CHF" CurrencyCode="CHF" Unit="1" Isim="İSVİÇRE FRANGI" CurrencyName="SWISS FRANK" ForexBuying="3.0292" ForexSelling="3.0486" BanknoteBuying="3.0246" BanknoteSelling="3.0532" CrossRateUSD="0.9733" CrossRateOther=""/>
+		<ROW CrossOrder="4" Kod="SEK" CurrencyCode="SEK" Unit="1" Isim="İSVEÇ KRONU" CurrencyName="SWEDISH KRONA" ForexBuying="0.34853" ForexSelling="0.35214" BanknoteBuying="0.34829" BanknoteSelling="0.35295" CrossRateUSD="8.4428" CrossRateOther=""/>
+		<ROW CrossOrder="6" Kod="CAD" CurrencyCode="CAD" Unit="1" Isim="KANADA DOLARI" CurrencyName="CANADIAN DOLLAR" ForexBuying="2.2792" ForexSelling="2.2895" BanknoteBuying="2.2708" BanknoteSelling="2.2982" CrossRateUSD="1.2948" CrossRateOther=""/>
+		<ROW CrossOrder="11" Kod="KWD" CurrencyCode="KWD" Unit="1" Isim="KUVEYT DİNARI" CurrencyName="KUWAITI DINAR" ForexBuying="9.7563" ForexSelling="9.8840" BanknoteBuying="9.6100" BanknoteSelling="10.0322" CrossRateUSD="" CrossRateOther="3.3201"/>
+		<ROW CrossOrder="7" Kod="NOK" CurrencyCode="NOK" Unit="1" Isim="NORVEÇ KRONU" CurrencyName="NORWEGIAN KRONE" ForexBuying="0.35948" ForexSelling="0.36190" BanknoteBuying="0.35923" BanknoteSelling="0.36273" CrossRateUSD="8.2005" CrossRateOther=""/>
+		<ROW CrossOrder="8" Kod="SAR" CurrencyCode="SAR" Unit="1" Isim="SUUDİ ARABİSTAN RİYALİ" CurrencyName="SAUDI RIYAL" ForexBuying="0.78785" ForexSelling="0.78927" BanknoteBuying="0.78195" BanknoteSelling="0.79519" CrossRateUSD="3.7509" CrossRateOther=""/>
+		<ROW CrossOrder="5" Kod="JPY" CurrencyCode="JPY" Unit="100" Isim="JAPON YENİ" CurrencyName="JAPENESE YEN" ForexBuying="2.8798" ForexSelling="2.8989" BanknoteBuying="2.8692" BanknoteSelling="2.9099" CrossRateUSD="102.37" CrossRateOther=""/>
+		<ROW CrossOrder="12" Kod="BGN" CurrencyCode="BGN" Unit="1" Isim="BULGAR LEVASI" CurrencyName="BULGARIAN LEV" ForexBuying="1.6928" ForexSelling="1.7150" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="1.7359" CrossRateOther=""/>
+		<ROW CrossOrder="13" Kod="RON" CurrencyCode="RON" Unit="1" Isim="RUMEN LEYİ" CurrencyName="NEW LEU" ForexBuying="0.74420" ForexSelling="0.75393" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="3.9487" CrossRateOther=""/>
+		<ROW CrossOrder="14" Kod="RUB" CurrencyCode="RUB" Unit="1" Isim="RUS RUBLESİ" CurrencyName="RUSSIAN ROUBLE" ForexBuying="0.04572" ForexSelling="0.04632" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="64.28" CrossRateOther=""/>
+		<ROW CrossOrder="15" Kod="IRR" CurrencyCode="IRR" Unit="100" Isim="İRAN RİYALİ" CurrencyName="IRANIAN RIAL" ForexBuying="0.00939" ForexSelling="0.00951" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="31291" CrossRateOther=""/>
+		<ROW CrossOrder="16" Kod="CNY" CurrencyCode="CNY" Unit="1" Isim="ÇİN YUANI" CurrencyName="CHINESE RENMINBI" ForexBuying="0.43992" ForexSelling="0.44568" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="6.6799" CrossRateOther=""/>
+		<ROW CrossOrder="17" Kod="PKR" CurrencyCode="PKR" Unit="1" Isim="PAKİSTAN RUPİSİ" CurrencyName="PAKISTANI RUPEE" ForexBuying="0.02818" ForexSelling="0.02855" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="104.27" CrossRateOther=""/>
+		<ROW CrossOrder="0" Kod="XDR" CurrencyCode="XDR" Unit="1" Isim="ÖZEL ÇEKME HAKKI (SDR)" CurrencyName="SPECIAL DRAWING RIGHT (SDR)" ForexBuying="4.1485" ForexSelling="" BanknoteBuying="" BanknoteSelling="" CrossRateUSD="" CrossRateOther="1.40257"/>
+	</ROWDATA>
+</DATAPACKET>
